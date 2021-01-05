@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'java-hello'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8766c5f1faf349f5b7d8075e64bbf8a4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cdb2b711003a40ff98ce506304cb7886 }}
         package: '${{ github.workspace }}/target/*.jar'
